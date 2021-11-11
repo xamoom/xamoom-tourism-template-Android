@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:custom="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/default_margin">
+
+    <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" android:id="@+id/single_image_layout" android:visibility="gone">
+
+        <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="200dp" custom:srcCompat="@drawable/placeholder"
+          android:id="@+id/slider_single_image" android:visibility="visible" android:scaleType="centerCrop"/>
+        <TextView
+          android:text="TextView"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" android:id="@+id/single_image_description"
+          android:textColor="@color/white"
+          android:background="@color/color_content_view_holder_title_background"
+          android:gravity="bottom" android:layout_alignBottom="@+id/slider_single_image"
+          android:textSize="14sp" android:paddingLeft="12dp" android:paddingTop="6dp"
+          android:paddingBottom="6dp"/>
+    </RelativeLayout>
+
+    <com.daimajia.slider.library.SliderLayout
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        />
+
+    <com.daimajia.slider.library.Indicators.PagerIndicator
+        android:id="@+id/custom_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:gravity="center"
+        android:layout_alignBottom="@+id/slider"
+        android:layout_marginBottom="30dp"
+        custom:selected_color="@color/color_slider_pageindicator_color_selected"
+        custom:unselected_color="@color/color_slider_pageindicator_color_unselected"
+        custom:shape="oval"
+        custom:selected_padding_left="3dp"
+        custom:selected_padding_right="3dp"
+        custom:unselected_padding_left="3dp"
+        custom:unselected_padding_right="3dp"
+        custom:selected_width="8dp"
+        custom:selected_height="8dp"
+        custom:unselected_width="8dp"
+        custom:unselected_height="8dp"
+        />
+</RelativeLayout>

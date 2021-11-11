@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/onboard_root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--SurfaceView
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:visibility="gone" /-->
+
+    <FrameLayout
+        android:id="@+id/onboard_main_frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

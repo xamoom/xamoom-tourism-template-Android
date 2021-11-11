@@ -1,0 +1,139 @@
+<resources>
+    <string name="bottombar.home">Domov</string>
+    <string name="bottombar.map">Zemljevid</string>
+    <string name="bottombar.scan">Scanner</string>
+    <string name="bottombar.info">Info</string>
+    <string name="bottombar.settings">Nastavitve</string>
+
+    <!-- InAppNotificationUtil  -->
+    <string name="dialog_ok">OK</string>
+    <string name="error_no_internet">Brez internetne povezave</string>
+    <string name="error_client">Napaka stranke</string>
+    <string name="error_server">Napaka strežnika</string>
+    <string name="error_password">Napačno geslo</string>
+
+    <!-- HomeFragment -->
+    <string name="nearby">V bližini</string>
+    <string name="guide_list_title">Welcome</string>
+
+    <!-- Permission -->
+    <string name="alert_permission_location_title">Dovoljenje</string>
+    <string name="alert_permission_location_message">Za uporabo iBeacons potrebujemo vašo lokacijo.</string>
+    <string name="alert_permission_camera_message">Za skeniranje QR kode potrebujemo dostop do vaše kamere.</string>
+    <string name="alert_permission_location_ok_button">OK</string>
+    <string name="alert_permission_location_cancel_button">Prekliči</string>
+    <string name="alert_permission_camera_storage_title">Zahtevano dovoljenje</string>
+    <string name="alert_permission_camera_storage_message">Ta stran vam omogoča pošiljanje slike iz vašega telefona. V ta namen potrebujemo dovoljenje za kamero in shranjevanje.</string>
+
+    <!-- MapFilter DELETE -->
+    <string name="map_filter_section_see_experience">See &amp; Experience</string>
+    <string name="map_filter_section_culture">Culture</string>
+    <string name="map_filter_tag_monument">Monuments</string>
+    <string name="map_filter_tag_churches">Churches</string>
+    <string name="map_filter_tag_nature">Nature</string>
+    <string name="map_filter_tag_museum">Museum</string>
+    <string name="map_filter_tag_gallery">Gallery</string>
+    <string name="map_filter_tag_theater">Theater</string>
+    <string name="map_filter_tag_architecture">Architecture</string>
+    <string name="map_filter_tag_attractions">Excursion Destinations</string>
+    <string name="map_filter_tag_galmus">Museum &amp; Galleries</string>
+    <string name="map_filter_tag_sightseeing">Sightseeing</string>
+    <string name="map_filter_tag_shopping">Shopping</string>
+
+    <!-- MapDetailView -->
+    <string name="map_detail_more_button_text">Več o tem</string>
+    <string name="map_detail_nav_button_text">Pot</string>
+
+    <!-- Filter DELETE -->
+    <string name="filter_activity_title">Filter</string>
+    <string name="menu_item_switch_select_all">All</string>
+
+    <!-- SettingsFragment -->
+    <string name="settings_action_bar_title">Nastavitve</string>
+
+    <string name="settings_fragment_notification_title">Obvestila</string>
+    <string name="settings_fragment_navigation_title">Zaželena navigacija</string>
+
+    <string name="settings_fragment_notifications">Obvestila</string>
+    <string name="settings_fragment_notification_sound">z zvokom</string>
+    <string name="settings_fragment_notification_vibration">z vibracijami</string>
+
+    <string name="settings_fragment_navigation_walking">Hoditi</string>
+    <string name="settings_fragment_navigation_biking">Kolesarjenje</string>
+    <string name="settings_fragment_navigation_car">Avto</string>
+    <string name="settings_fragment_navigation_public_transport">Javni prevoz</string>
+    <string name="notification_content_info">V bližini</string>
+
+    <!-- Notification -->
+    <string name="notification_no_content_title">Odkrijte nekaj v bližini</string>
+    <string name="notification_no_content_text">Odprite aplikacijo in odkrijte nekaj okoli sebe!</string>
+    <string name="copied_to_clipboard">Copied!</string>
+
+
+    <string name="scan_fragment_qr">Napačna koda</string>
+
+    <!-- Security Package -->
+    <string name="passord_alert_title">Ta stran je zaščitena.</string>
+    <string name="passord_alert_continue">Nadaljujte</string>
+    <string name="passord_alert_cancel">Prekliči</string>
+    <string name="passord_alert_hint">Vnesite geslo</string>
+
+    <!-- Onboarding Screens -->
+    <string name="onboard_action_start">Več</string>
+    <string name="onboard_action_location_permission">Uporabite \'V bližini mene\'</string>
+    <string name="onboard_action_finish">Odkrijte</string>
+    <string name="onboard_skip_label">Preskoči</string>
+
+    <!-- Voucher -->
+    <string name="redeem_voucher">Unovčite bon</string>
+    <string name="voucher_redeemed">Vaučer je bil unovčen</string>
+    <string name="voucher_redeemed_alert_title">Vaučer je že unovčen</string>
+    <string name="voucher_redeemed_alert_description">Kupon lahko unovčite le enkrat.</string>
+    <string name="voucher_redemption_notification_successful">Vaučer %1$s je bil uspešno unovčen. Hvala!</string>
+    <string name="voucher_redemption_notification_error">Vaučerja %1$s ni mogoče unovčiti. Preverite unovčevalca.</string>
+    <string name="voucher_redemption_nfc_alert_message">Kupon je zaznan. Ali želite unovčiti bon %1$s?</string>
+
+    <!-- Language picker -->
+    <string name="language_picker_title">Želeni jezik</string>
+
+    <!-- Guide items -->
+    <string name="guide_score_screen">Punktestand</string>
+    <string name="guide_quizzes_screen">Rätselübersicht</string>
+
+    <!-- Quiz score screen -->
+    <string name="quiz_score_screen_title">Dein Punktestand</string>
+    <string name="quiz_score_screen_subtitle">Durch das Lösen von Rätseln sammelst du Punkte. Du besitzt aktuell</string>
+    <string name="quiz_score_screen_points">%1$s Punkte</string>
+    <string name="quiz_score_screen_level_description">Alle 300 Punkte steigerst du dein Spieler-Level. Dein aktuelles Level ist</string>
+    <string name="quiz_score_screen_levels">Level %1$s</string>
+    <string name="quiz_score_screen_vouchers_description">Mit jedem Level-Aufstieg erhälst du einen Gutschein. Du hast aktuell</string>
+    <string name="quiz_score_screen_vouchers">%1$s Gutscheine</string>
+    <string name="quiz_score_screen_second_description">Die Gutscheine kannst du bei verschiedenen Orten auf Pellworm eintauschen. Hier gibt es eine entsprechende Übersicht:</string>
+    <string name="quiz_score_link_to_quizzes_title">Zur Quiz-Übersicht:</string>
+    <string name="quiz_score_link_to_quizzes_subtitle">Was ist beantwortet und was noch offen?</string>
+
+    <!-- Quizzes page screen -->
+    <string name="quizzes_page_solved_quizzes_title">Solved quizzes</string>
+    <string name="quizzes_page_open_quizzes_title">Open quizzes</string>
+
+    <string name="quizzes_page_title">Open quizzes</string>
+    <string name="quizzes_page_excerpt">Here you find all quizzes that are unsolved. Choose one and jump right into the adventure!</string>
+    <string name="quizzes_page_title_solved">Deine gelösten Rätstel</string>
+    <string name="quizzes_page_solved_excerpt">Diese Rätsel hast du bereits erfolgreich absolviert. Schalte auf „Offene Rätsel“ und du siehst, welcher Rätselspaß noch vor dir steht.</string>
+
+
+    <string name="quiz_wrong_answer_title">Wrong Answer</string>
+    <string name="quiz_wrong_answer_subtitle">You have one more chance to give a right answer to the question. Come back tomorrow morning.</string>
+    <string name="quiz_right_answer_title">Right Answer</string>
+    <string name="quiz_right_answer_subtitle">Points earned</string>
+    <string name="quiz_answer_button_close">Close</string>
+    <string name="quiz_answer_button_goToScore">Go to score page</string>
+
+    <string name="quiz_voucher_redemption_successful_alert_title">Are you sure?</string>
+    <string name="quiz_voucher_redemption_successful_alert_subtitle">You will spent %1$s of yours %2$s vouchers</string>
+    <string name="quiz_voucher_redemption_successful_alert_scan">Scan QR</string>
+    <string name="quiz_voucher_redemption_fail_alert_title">Not enough vouchers</string>
+    <string name="quiz_voucher_redemption_fail_alert_subtitle">The price is %1$s, but you have %2$s vouchers</string>
+
+
+</resources>

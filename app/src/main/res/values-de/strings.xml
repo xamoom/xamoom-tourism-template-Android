@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bottombar.home">Home</string>
+    <string name="bottombar.map">Karte</string>
+    <string name="bottombar.scan">Scan</string>
+    <string name="bottombar.info">Info</string>
+    <string name="bottombar.settings">Einstellungen</string>
+
+    <!-- InAppNotificationUtil  -->
+    <string name="dialog_ok">OK</string>
+    <string name="error_no_internet">Keine Internetverbindung</string>
+    <string name="error_client">Client-Fehler</string>
+    <string name="error_server">Server-Fehler</string>
+    <string name="error_password">Falsches Passwort</string>
+
+    <!-- HomeFragment -->
+    <string name="nearby">In meiner Nähe</string>
+    <string name="guide_list_title">Willkommen</string>
+
+    <!-- Permission -->
+    <string name="alert_permission_location_title">Erlaubnis</string>
+    <string name="alert_permission_location_message">Wir benötigen Ihren Standort für die Verwendung von iBeacons</string>
+    <string name="alert_permission_camera_message">Zum Scannen von QR-Codes benötigen wir Zugriff auf Ihre Kamera.</string>
+    <string name="alert_permission_location_ok_button">OK</string>
+    <string name="alert_permission_location_cancel_button">Abbrechen</string>
+    <string name="alert_permission_camera_storage_title">Erlaubnis benötigt</string>
+    <string name="alert_permission_camera_storage_message">Diese Seite ermöglicht dir, uns ein Bild zu senden. Dazu benötigen wir eine Kamera- und Speichererlaubnis.</string>
+
+    <!-- MapFilter DELETE -->
+    <string name="map_filter_section_culture">Kultur</string>
+    <string name="map_filter_tag_monument">Denkmäler</string>
+    <string name="map_filter_tag_churches">Kirchen</string>
+    <string name="map_filter_tag_nature">Natur</string>
+    <string name="map_filter_tag_museum">Museum</string>
+    <string name="map_filter_tag_gallery">Galerie</string>
+    <string name="map_filter_tag_theater">Theater</string>
+    <string name="map_filter_tag_architecture">Architektur</string>
+
+    <!-- MapDetailView -->
+    <string name="map_detail_more_button_text">Mehr erfahren</string>
+<!--    <string name="map_detail_more_button_text">Zum Rätsel</string>-->
+    <string name="map_detail_nav_button_text">Route</string>
+
+    <!-- Filter DELETE -->
+    <string name="filter_activity_title">Filter</string>
+    <string name="menu_item_switch_select_all">Alle</string>
+
+    <!-- SettingsFragment -->
+    <string name="settings_action_bar_title">Einstellungen</string>
+
+    <string name="settings_fragment_notification_title">Benachrichtigungen</string>
+    <string name="settings_fragment_navigation_title">Bevorzugte Navigation</string>
+
+    <string name="settings_fragment_notifications">Benachrichtigungen</string>
+    <string name="settings_fragment_notification_sound">mit Ton</string>
+    <string name="settings_fragment_notification_vibration">mit Vibration</string>
+
+    <string name="settings_fragment_navigation_walking">zu Fuß</string>
+    <string name="settings_fragment_navigation_biking">Fahrrad</string>
+    <string name="settings_fragment_navigation_car">Auto</string>
+    <string name="settings_fragment_navigation_public_transport">Öffentlicher Verkehr</string>
+    <string name="notification_content_info">In der Nähe</string>
+
+    <!-- Notification -->
+    <string name="notification_no_content_title">Entdecke etwas in der Nähe</string>
+    <string name="notification_no_content_text">Öffne die App und entdecke etwas in der Nähe!</string>
+    <string name="copied_to_clipboard">Copied!</string>
+
+    <!-- DELETE -->
+    <string name="map_filter_tag_attractions">Ausflugsziele</string>
+    <string name="map_filter_tag_galmus">Museen &amp; Galerien</string>
+    <string name="map_filter_tag_shopping">Shopping</string>
+    <string name="map_filter_tag_sightseeing">Sehenswertes</string>
+    <string name="map_filter_section_see_experience">Sehen &amp; Erleben</string>
+
+    <string name="scan_fragment_qr">Falscher Code</string>
+
+    <!-- Security Package -->
+    <string name="passord_alert_title">Diese Seite ist geschützt.</string>
+    <string name="passord_alert_continue">Weiter</string>
+    <string name="passord_alert_cancel">Abbrechen</string>
+    <string name="passord_alert_hint">Passwort eingeben</string>
+
+    <!-- Onboarding Screens -->
+    <string name="onboard_skip_label">Überspringen</string>
+    <string name="onboard_action_finish">Entdecken</string>
+    <string name="onboard_action_location_permission">Erlauben</string>
+    <string name="onboard_action_start">Weiter</string>
+
+    <!-- Voucher -->
+    <string name="redeem_voucher">Gutschein einlösen</string>
+    <string name="voucher_redeemed">Gutschein eingelöst</string>
+    <string name="voucher_redeemed_alert_title">Gutschein bereits eingelöst</string>
+    <string name="voucher_redeemed_alert_description">Ein Gutschein kann nur einmal eingelöst werden.</string>
+    <string name="voucher_redemption_notification_successful">Der Gutschein %1$s wurde erfolgreich eingelöst. Dankeschön!</string>
+    <string name="voucher_redemption_notification_error">Der Gutschein %1$s kann nicht eingelöst werden. Bitte überprüfen Sie den Einlöse-Code.</string>
+    <string name="voucher_redemption_nfc_alert_message">Gutschein erkannt! Möchten sie den Gutschein %1$s einlösen?</string>
+
+    <!-- Language picker -->
+    <string name="language_picker_title">Bevorzugte Sprache</string>
+
+    <!-- Guide items -->
+    <string name="guide_score_screen">Punktestand</string>
+    <string name="guide_quizzes_screen">Rätselübersicht</string>
+
+    <!-- Quiz score screen -->
+    <string name="quiz_score_screen_title">Dein Punktestand</string>
+    <string name="quiz_score_screen_subtitle">Durch das Lösen von Rätseln sammelst du Punkte. Du besitzt aktuell</string>
+    <string name="quiz_score_screen_points">%1$s Punkte</string>
+    <string name="quiz_score_screen_level_description">Alle 300 Punkte steigerst du dein Spieler-Level. Dein aktuelles Level ist</string>
+    <string name="quiz_score_screen_levels">Level %1$s</string>
+    <string name="quiz_score_screen_vouchers_description">Mit jedem Level-Aufstieg erhälst du einen Gutschein. Du hast aktuell</string>
+    <string name="quiz_score_screen_vouchers">%1$s Gutscheine</string>
+    <string name="quiz_score_screen_second_description">Die Gutscheine kannst du bei verschiedenen Orten auf Pellworm eintauschen. Hier gibt es eine entsprechende Übersicht:</string>
+    <string name="quiz_score_link_to_quizzes_title">Zur Quiz-Übersicht:</string>
+    <string name="quiz_score_link_to_quizzes_subtitle">Was ist beantwortet und was noch offen?</string>
+
+    <!-- Quizzes page screen -->
+    <string name="quizzes_page_solved_quizzes_title">Gelöste Rätsel</string>
+    <string name="quizzes_page_open_quizzes_title">Offene Rätsel</string>
+
+    <string name="quizzes_page_title">Offene Rätsel</string>
+    <string name="quizzes_page_excerpt">Hier findest du alle Rätsel, die noch offen sind. Wähle eines aus und stürze dich ins Abenteuer!</string>
+    <string name="quizzes_page_title_solved">Deine gelösten Rätstel</string>
+    <string name="quizzes_page_solved_excerpt">Diese Rätsel hast du bereits erfolgreich absolviert. Schalte auf „Offene Rätsel“ und du siehst, welcher Rätselspaß noch vor dir steht.</string>
+
+
+    <string name="quiz_wrong_answer_title">Falsche Antwort</string>
+    <string name="quiz_wrong_answer_subtitle">Morgen darfst du erneut versuchen, diese Frage zu beantworten.</string>
+    <string name="quiz_right_answer_title">Richtige Antwort</string>
+    <string name="quiz_right_answer_subtitle">Punkte verdient</string>
+    <string name="quiz_answer_button_close">Schließen</string>
+    <string name="quiz_answer_button_goToScore">Zur Game Score Seite</string>
+    <string name="quiz_voucher_redemption_successful_alert_title">Bist du dir sicher?</string>
+    <string name="quiz_voucher_redemption_successful_alert_subtitle">Du musst dafür %1$s deiner %2$s Gutscheine ausgeben.</string>
+    <string name="quiz_voucher_redemption_successful_alert_scan">QR scannen</string>
+    <string name="quiz_voucher_redemption_fail_alert_title">Du hast dafür nicht ausreichend viele Gutscheine.</string>
+    <string name="quiz_voucher_redemption_fail_alert_subtitle">Du benötigst dafür %1$s Gutscheine, hast aber nur %2$s Stück</string>
+
+</resources>

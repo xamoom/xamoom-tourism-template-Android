@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">@color/colorPrimary</color>
+    <color name="color_primary_dark">@color/colorPrimaryDark</color>
+    <color name="color_accent">@color/colorAccent</color>
+    <color name="color_text">@color/colorText</color>
+    <color name="color_map_button">#393939</color>
+
+    <color name="color_content_view_holder_title_background">#99000000</color>
+    
+    <color name="color_slider_pageindicator_color_selected">@color/color_accent</color>
+    <color name="color_slider_pageindicator_color_unselected">#55FFFFFF</color>
+
+    <color name="no_favs_text_color">#91919C</color>
+
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="event_navigation_background_color">@color/color_primary</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="event_calendar_background_color">@color/color_primary</color>
+
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="audio_player_progress_bar_color">@color/color_primary</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="audio_player_background_color">@color/color_primary</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="audio_player_tint_color">@color/colorText</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="downloadblock_default_background_color">@color/color_primary</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="downloadblock_default_tint_color">@color/colorText</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="downloadblock_gpx_background_color">@color/color_primary</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="downloadblock_contact_background_color">@color/color_primary</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="downloadblock_calendar_background_color">@color/color_primary</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="ebookblock_background_color">@color/color_primary</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_instagram_background_color">@color/color_primary</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_windowsstore_background_color">@color/color_primary</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_playstore_background_color">@color/color_primary</color>
+
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_appstore_background_color">@color/color_primary</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_navigation_background_color">@color/color_primary</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_navigation_tint_color">@color/colorText</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_spotify_tint_color">@color/colorText</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_spotify_background_color">@color/color_primary</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_email_tint_color">@color/colorText</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_email_background_color">@color/color_primary</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_phone_tint_color">@color/colorText</color>
+
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_phone_background_color">@color/color_primary</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_googleplus_background_color">@color/color_primary</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_youtube_background_color">@color/color_primary</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_itunes_tint_color">@color/colorText</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_itunes_background_color">@color/color_primary</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_soundcloud_tint_color">@color/colorText</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_soundcloud_background_color">@color/color_primary</color>
+
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_flickr_background_color">@color/color_primary</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_linkedin_background_color">@color/color_primary</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_wikipedia_tint_color">@color/colorText</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_wikipedia_background_color">@color/color_primary</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_shop_tint_color">@color/colorText</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_shop_background_color">@color/color_primary</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_web_tint_color">@color/colorText</color>
+
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_web_background_color">@color/color_primary</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_twitter_background_color">@color/color_primary</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_facebook_background_color">@color/color_primary</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_default_tint_color">@color/colorText</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_default_background_color">@color/color_primary</color>
+
+
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_whatsapp_background_color">@color/color_primary</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_sms_background_color">@color/color_primary</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_whatsapp_tint_color">@color/colorText</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_sms_tint_color">@color/colorText</color>
+
+
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_facebook_tint_color">@color/colorText</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_twitter_tint_color">@color/colorText</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_linkedin_tint_color">@color/colorText</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_flickr_tint_color">@color/colorText</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_youtube_tint_color">@color/colorText</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_googleplus_tint_color">@color/colorText</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_appstore_tint_color">@color/colorText</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_playstore_tint_color">@color/colorText</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_windowsstore_tint_color">@color/colorText</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="linkblock_instagram_tint_color">@color/colorText</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="downloadblock_contact_tint_color">@color/colorText</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="ebookblock_tint_color">@color/colorText</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="downloadblock_calendar_tint_color">@color/colorText</color>
+
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="downloadblock_gpx_tint_color">@color/colorText</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="event_calendar_tint_color">@color/colorText</color>
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="event_navigation_tint_color">@color/colorText</color>
+
+
+    <color xmlns:tools="http://schemas.android.com/tools" tools:override="true" name="app_template_primary_color">@color/color_primary</color>
+
+</resources>

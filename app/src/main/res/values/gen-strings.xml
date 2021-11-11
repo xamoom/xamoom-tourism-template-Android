@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="api_key" translatable="false">d270b614-1208-437f-aefc-cc2effe136fb</string>
+    <string name="maps_key" translatable="false">MapKey</string>
+    <string name="beacon_major" translatable="false">00000</string>
+    <string name="custom_webclient" translatable="false">https://website</string>
+    <string name="deep_link" translatable="false">DeepLinkDomain</string>
+    <string name="tracking_id" translatable="false">TrackingID</string>
+    <string name="is_background_image" translatable="false">false</string>
+    <string name="enable_quiz_feature" translatable="false">false</string>
+    <string-array name="intern_urls" translatable="false">
+        <item>http</item>
+    </string-array>
+    <string-array name="non_intern_urls" translatable="false">
+    </string-array>
+</resources>

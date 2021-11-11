@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/tab_home"
+        android:icon="@drawable/ic_home_black_26dp"
+        android:title="@string/bottombar.home"
+        app:showAsAction="ifRoom"
+        android:enabled="true" />
+    <item
+        android:id="@+id/tab_map"
+        android:icon="@drawable/ic_map_black_26dp"
+        android:title="@string/bottombar.map"
+        app:showAsAction="ifRoom"
+        android:enabled="true" />
+    <item
+        android:id="@+id/tab_qr"
+        android:icon="@drawable/ic_scan_bar"
+        android:title="@string/bottombar.scan"
+        app:showAsAction="ifRoom"
+        android:enabled="true" />
+    <item
+        android:id="@+id/tab_info"
+        android:icon="@drawable/ic_info_black_26dp"
+        android:title="@string/bottombar.info"
+        app:showAsAction="ifRoom"
+        android:enabled="true" />
+    <item
+        android:id="@+id/tab_setting"
+        android:icon="@drawable/ic_settings_black_26dp"
+        android:title="@string/bottombar.settings"
+        app:showAsAction="ifRoom"
+        android:enabled="true" />
+</menu>

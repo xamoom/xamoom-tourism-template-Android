@@ -1,0 +1,155 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:id="@+id/coordinater"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.android.xamoom.tourismtemplate.fragments.MapFragment">
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/titleTextView"
+        app:mapbox_renderTextureMode="true"
+        app:mapbox_cameraZoom="7"/>
+
+    <ProgressBar
+        android:id="@+id/map_progress_bar"
+        android:layout_width="@dimen/progress_bar_size"
+        android:layout_height="@dimen/progress_bar_size"
+        android:layout_marginTop="@dimen/double_default_margin"
+        android:layout_gravity="center|top"/>
+
+    <LinearLayout
+        android:id="@+id/map_detail_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="true"
+        android:orientation="vertical"
+        android:clickable="true"
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+        <LinearLayout
+            android:id="@+id/map_detail_inner_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="60dp"
+            android:background="@android:color/white">
+
+            <TextView
+                android:id="@+id/map_detail_title_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:text="title"
+                android:ellipsize="end"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="@dimen/default_margin">
+
+                <ImageView
+                    android:id="@+id/map_detail_image_view"
+                    android:layout_width="118dp"
+                    android:layout_height="118dp"
+                    android:layout_marginTop="4dp"
+                    android:scaleType="centerCrop"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginStart="8dp">
+
+                    <TextView
+                        android:id="@+id/map_detail_description_text_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:maxLines="4"
+                        android:text="Nice Text to view Nice Text to view Nice Text to view Nice Text to view Nice Text to view Nice Text to view Nice Text to view Nice Text to view Nice Text to view"
+                        android:ellipsize="end"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp">
+
+                        <Button
+                            android:id="@+id/map_detail_more_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/map_detail_button_style"
+                            android:textColor="@color/black"
+                            android:layout_marginEnd="4dp"
+                            android:textStyle="bold"
+                            android:text="@string/map_detail_more_button_text"
+                            android:layout_weight="0.5"/>
+
+                        <Button
+                            android:id="@+id/map_detail_navigation_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="4dp"
+                            android:background="@drawable/map_detail_button_style"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:layout_weight="0.5"
+                            android:text="@string/map_detail_nav_button_text"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_anchor="@id/map_detail_view"
+        app:layout_anchorGravity="end"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/map_center_map_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fabCustomSize="50dp"
+            android:layout_margin="8dp"
+            app:srcCompat="@drawable/ic_user_location"
+            app:backgroundTint="@android:color/white"
+            android:tint="@color/color_map_button" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/map_center_bounds_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="@color/color_map_button"
+            app:backgroundTint="@android:color/white"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            app:elevation="6dp"
+            app:fabCustomSize="50dp"
+            app:srcCompat="@drawable/ic_spot_bounds" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

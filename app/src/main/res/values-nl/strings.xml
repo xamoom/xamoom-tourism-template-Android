@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bottombar.home">Start</string>
+    <string name="bottombar.map">Kaart</string>
+    <string name="bottombar.scan">Scanner</string>
+    <string name="bottombar.info">Info</string>
+    <string name="bottombar.settings">Instellingen</string>
+
+    <!-- InAppNotificationUtil  -->
+    <string name="dialog_ok">OK</string>
+    <string name="error_no_internet">Geen internet connectie</string>
+    <string name="error_client">Clientfout</string>
+    <string name="error_server">Serverfout</string>
+    <string name="error_password">Verkeerd wachtwoord</string>
+
+    <!-- HomeFragment -->
+    <string name="nearby">Dichtbij</string>
+    <string name="guide_list_title">Welcome</string>
+
+    <!-- Permission -->
+    <string name="alert_permission_location_title">Toestemming</string>
+    <string name="alert_permission_location_message">We hebben uw locatie nodig voor het gebruik van iBeacons.</string>
+    <string name="alert_permission_camera_message">We hebben toegang tot uw camera nodig om QR-codes te scannen.</string>
+    <string name="alert_permission_location_ok_button">OK</string>
+    <string name="alert_permission_location_cancel_button">Annuleren</string>
+    <string name="alert_permission_camera_storage_title">Toestemming vereist</string>
+    <string name="alert_permission_camera_storage_message">Op deze pagina kunt u een afbeelding vanaf uw telefoon verzenden. Daarvoor hebben we camera- en opslagvergunning nodig.</string>
+
+    <!-- MapFilter DELETE -->
+    <string name="map_filter_section_see_experience">See &amp; Experience</string>
+    <string name="map_filter_section_culture">Culture</string>
+    <string name="map_filter_tag_monument">Monuments</string>
+    <string name="map_filter_tag_churches">Churches</string>
+    <string name="map_filter_tag_nature">Nature</string>
+    <string name="map_filter_tag_museum">Museum</string>
+    <string name="map_filter_tag_gallery">Gallery</string>
+    <string name="map_filter_tag_theater">Theater</string>
+    <string name="map_filter_tag_architecture">Architecture</string>
+    <string name="map_filter_tag_attractions">Excursion Destinations</string>
+    <string name="map_filter_tag_galmus">Museum &amp; Galleries</string>
+    <string name="map_filter_tag_sightseeing">Sightseeing</string>
+    <string name="map_filter_tag_shopping">Shopping</string>
+
+    <!-- MapDetailView -->
+    <string name="map_detail_more_button_text">Meer</string>
+    <string name="map_detail_nav_button_text">Route</string>
+
+    <!-- Filter DELTE -->
+    <string name="filter_activity_title">Filter</string>
+    <string name="menu_item_switch_select_all">All</string>
+
+    <!-- SettingsFragment -->
+    <string name="settings_action_bar_title">Instellingen</string>
+
+    <string name="settings_fragment_notification_title">Meldingen</string>
+    <string name="settings_fragment_navigation_title">Voorkeur navigatie</string>
+
+    <string name="settings_fragment_notifications">Meldingen</string>
+    <string name="settings_fragment_notification_sound">met geluid</string>
+    <string name="settings_fragment_notification_vibration">met trilling</string>
+
+    <string name="settings_fragment_navigation_walking">Lopen</string>
+    <string name="settings_fragment_navigation_biking">Fiets</string>
+    <string name="settings_fragment_navigation_car">Rijden</string>
+    <string name="settings_fragment_navigation_public_transport">Openbaar Vervoer</string>
+    <string name="notification_content_info">Dichtbij</string>
+
+    <!-- Notification -->
+    <string name="notification_no_content_title">Ontdek iets in de buurt</string>
+    <string name="notification_no_content_text">Open de app en ontdek iets om je heen!</string>
+    <string name="copied_to_clipboard">Copied!</string>
+
+    <string name="scan_fragment_qr">Verkeerde code</string>
+
+    <!-- Security Package -->
+    <string name="passord_alert_title">Deze pagina is beveiligd.</string>
+    <string name="passord_alert_continue">Doorgaan</string>
+    <string name="passord_alert_cancel">Annuleren</string>
+    <string name="passord_alert_hint">Voer wachtwoord in</string>
+
+    <!-- Onboarding Screens -->
+    <string name="onboard_skip_label">Overslaan</string>
+    <string name="onboard_action_start">Meer</string>
+    <string name="onboard_action_location_permission">\'Nabij mij\' gebruiken</string>
+    <string name="onboard_action_finish">Ontdek</string>
+
+
+    <!-- Voucher -->
+    <string name="redeem_voucher">Waardebon valideren</string>
+    <string name="voucher_redeemed">Voucher ingewisseld</string>
+    <string name="voucher_redeemed_alert_title">Voucher is al ingewisseld</string>
+    <string name="voucher_redeemed_alert_description">Een voucher kan slechts één keer worden ingewisseld.</string>
+    <string name="voucher_redemption_notification_successful">The Voucher %1$s has been successfully redeemed. Thank You!</string>
+    <string name="voucher_redemption_notification_error">The Voucher %1$s cannot be redeemed. Please check the redeemer.</string>
+    <string name="voucher_redemption_nfc_alert_message">Voucher gedetecteerd. Wil je de tegoedbon %1$s inwisselen?</string>
+
+    <!-- Language picker -->
+    <string name="language_picker_title">Voorkeurstaal</string>
+
+    <!-- Guide items -->
+    <string name="guide_score_screen">Punktestand</string>
+    <string name="guide_quizzes_screen">Rätselübersicht</string>
+
+    <!-- Quiz score screen -->
+    <string name="quiz_score_screen_title">Dein Punktestand</string>
+    <string name="quiz_score_screen_subtitle">Durch das Lösen von Rätseln sammelst du Punkte. Du besitzt aktuell</string>
+    <string name="quiz_score_screen_points">%1$s Punkte</string>
+    <string name="quiz_score_screen_level_description">Alle 300 Punkte steigerst du dein Spieler-Level. Dein aktuelles Level ist</string>
+    <string name="quiz_score_screen_levels">Level %1$s</string>
+    <string name="quiz_score_screen_vouchers_description">Mit jedem Level-Aufstieg erhälst du einen Gutschein. Du hast aktuell</string>
+    <string name="quiz_score_screen_vouchers">%1$s Gutscheine</string>
+    <string name="quiz_score_screen_second_description">Die Gutscheine kannst du bei verschiedenen Orten auf Pellworm eintauschen. Hier gibt es eine entsprechende Übersicht:</string>
+    <string name="quiz_score_link_to_quizzes_title">Zur Quiz-Übersicht:</string>
+    <string name="quiz_score_link_to_quizzes_subtitle">Was ist beantwortet und was noch offen?</string>
+
+    <!-- Quizzes page screen -->
+    <string name="quizzes_page_solved_quizzes_title">Solved quizzes</string>
+    <string name="quizzes_page_open_quizzes_title">Open quizzes</string>
+
+    <string name="quizzes_page_title">Open quizzes</string>
+    <string name="quizzes_page_excerpt">Here you find all quizzes that are unsolved. Choose one and jump right into the adventure!</string>
+    <string name="quizzes_page_title_solved">Deine gelösten Rätstel</string>
+    <string name="quizzes_page_solved_excerpt">Diese Rätsel hast du bereits erfolgreich absolviert. Schalte auf „Offene Rätsel“ und du siehst, welcher Rätselspaß noch vor dir steht.</string>
+
+
+    <string name="quiz_wrong_answer_title">Wrong Answer</string>
+    <string name="quiz_wrong_answer_subtitle">You have one more chance to give a right answer to the question. Come back tomorrow morning.</string>
+    <string name="quiz_right_answer_title">Right Answer</string>
+    <string name="quiz_right_answer_subtitle">Points earned</string>
+    <string name="quiz_answer_button_close">Close</string>
+    <string name="quiz_answer_button_goToScore">Go to score page</string>
+
+    <string name="quiz_voucher_redemption_successful_alert_title">Are you sure?</string>
+    <string name="quiz_voucher_redemption_successful_alert_subtitle">You will spent %1$s of yours %2$s vouchers</string>
+    <string name="quiz_voucher_redemption_successful_alert_scan">Scan QR</string>
+    <string name="quiz_voucher_redemption_fail_alert_title">Not enough vouchers</string>
+    <string name="quiz_voucher_redemption_fail_alert_subtitle">The price is %1$s, but you have %2$s vouchers</string>
+
+
+</resources>
