@@ -27,4 +27,4 @@
 
 ## XamoomSDK
 1. Open ```build.gradle``` in the project tree.
-2. Find line ```implementation 'com.github.xamoom:xamoom-android-sdk:dev-SNAPSHOT' ```. XamoomSDK is implemented in the app as dependency. If you want to modify XamoomSDK, clone it from github repo https://github.com/xamoom/xamoom-android-sdk and implement as project module.
+2. Find line ```implementation 'com.github.xamoom:xamoom-android-sdk:dev-SNAPSHOT'```. XamoomSDK is implemented in the app as dependency. If you want to modify XamoomSDK, clone it from github repo https://github.com/xamoom/xamoom-android-sdk and implement as project module.
