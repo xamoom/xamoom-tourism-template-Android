@@ -7,7 +7,7 @@
 3. Change ```applicationId``` in ```build.gradle``` file to appId registered in Firebase.
 
 ## Mapbox
-1. Create file with name ```gradle.properties``` in the project.gradle.gradleUserHomeDir folder ($USER_HOME/.gradle). Learn more from gradle official documentation. https://docs.gradle.org/current/userguide/directory_layout.html
+1. Create file with name ```gradle.properties``` in the project.gradle.gradleUserHomeDir folder ($USER_HOME/.gradle). Learn more from [gradle official documentation](https://docs.gradle.org/current/userguide/directory_layout.html). 
 2. In ```gradle.properties``` create property named ```MAPBOX_DOWNLOADS_TOKEN``` and set mapbox downloads token.
 3. In ```developer-config.xml``` set your ```mapbox_access_token```.
 
@@ -27,4 +27,4 @@
 
 ## XamoomSDK
 1. Open ```build.gradle``` in the project tree.
-2. Find line ```implementation 'com.github.xamoom:xamoom-android-sdk:dev-SNAPSHOT'```. XamoomSDK is implemented in the app as dependency. If you want to modify XamoomSDK, clone it from github repo https://github.com/xamoom/xamoom-android-sdk and implement as project module.
+2. Find line ```implementation 'com.github.xamoom:xamoom-android-sdk:dev-SNAPSHOT'```. XamoomSDK is implemented in the app as dependency. If you want to modify XamoomSDK, clone it from [github repo](https://github.com/xamoom/xamoom-android-sdk) and implement as project module.
